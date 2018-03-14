@@ -4,7 +4,7 @@ import styles from './Footer.css';
 
 
 const MyFooter = () =>  
-  <Footer copyrights="© 2018 Andre Jarboe II"
+  <Footer copyrights="© 2018 Creative Studios of Atlanta"
     moreLinks={
       <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
     }
