@@ -10,10 +10,18 @@ class App extends Component {
             <div className="App Site">
                 <div className="Site-content">
                     <div className="App-header">
-                    <Navbar />
+                    {/* <section className="sticky">
+                        <Navbar />
+                    </section> */}
+                    <section>
+                        <h1>info</h1>
+                    </section>
                     </div>
                     <div className="main">
                         {/* <Main /> */}
+                        <section className="sticky">
+                        <Navbar />
+                    </section>                        
                     </div>
                 </div>
                 <Footer />

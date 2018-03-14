@@ -22,3 +22,8 @@
   height: 0;
   visibility: hidden;
 }
+.sticky{
+  position: -webkit-sticky; /* for safari */
+  position: sticky;
+  top: 0;
+}
