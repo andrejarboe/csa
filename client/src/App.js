@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
 
@@ -9,7 +10,7 @@ class App extends Component {
             <div className="App Site">
                 <div className="Site-content">
                     <div className="App-header">
-                        {/* <Header /> */}
+                    <Navbar />
                     </div>
                     <div className="main">
                         {/* <Main /> */}
